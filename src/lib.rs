@@ -6,10 +6,10 @@ pub enum Daemon {
     /// Most systems are using systemd these days.  Those include:
     /// Arch, Debian, Fedora, Gentoo, Mageia, OpenSUSE, Ubuntu and probably others
     Systemd,
-    /// Older versions of Ubuntu
-    Upstart,
     /// Any daemon that we don't know how to detect yet
     Unknown,
+    /// Older versions of Ubuntu
+    Upstart,
 }
 
 pub fn detect_daemon() -> Result<Daemon, String> {
