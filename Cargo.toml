@@ -4,6 +4,7 @@ description = "Helper crate to discover which init system is in use"
 version = "0.1.0"
 authors = ["Chris Holcombe <xfactor973@gmail.com>"]
 repository = "https://github.com/cholcombe973/init-daemon"
+documentation= "https://docs.rs/init-daemon"
 license = "MIT"
 
 [dependencies]
